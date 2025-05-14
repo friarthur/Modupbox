@@ -1,0 +1,166 @@
+/* Reset básico */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+/* Container principal */
+.container {
+    background: #fff;
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 3rem auto;
+    text-align: center;
+    border-top: 5px solid #00d4ff;
+}
+
+.container h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.container p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+strong {
+    color: #333;
+}
+
+/* QR Code */
+.qrcode img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.qrcode p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Código Pix */
+.codigo-pix {
+    background: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.codigo-pix p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#codigoPix {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #00d4ff;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #222;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo para botões de copiar */
+button:focus {
+    outline: none;
+}
+.btn-login {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #00d4ff;
+}
