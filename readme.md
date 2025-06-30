@@ -2,7 +2,7 @@
 
 O ModupBox é um sistema completo e eficiente de gerenciamento de caixa, desenvolvido especialmente para supermercados. A plataforma foi criada utilizando exclusivamente PHP, JavaScript, HTML, CSS e MariaDB, sem o uso de frameworks, com foco em leveza, agilidade e simplicidade no uso diário.
 
-🔗 Acesse [httpsmodupbox.com.br](httpsmodupbox.com.br)
+🔗 Acesse [httpsmodupbox.com.br](https://modupbox.com.br)
 
 ---
 
